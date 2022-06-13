@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Show do Milhão</title>
+</head>
+<body>
+    <div id="quiz">
+        <h2 id="pergunta" >
+            Aqui vai a pergunta
+        </h2>
+        <div id="respostas" data-status="ok">
+            <button id="resp0" class="resposta"> Aqui a resposta 1 </button>
+
+            <button id="resp1" class="resposta"> Aqui a resposta 2 </button>
+            
+            <button id="resp2" class="resposta"> Aqui a resposta 3 </button>
+            
+            <button id="resp3" class="resposta"> Aqui a resposta 4 </button>
+
+            <br><br>
+
+            <button id="confirm"> Confirmar</button>
+        </div>
+    </div>
+
+    <div id="status" class="oculto">
+        <h2 id="mensagem">Game Over</h2>
+        <button id="novo-jogo">Jogar Novamente</button>
+    </div>
+
+    
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
