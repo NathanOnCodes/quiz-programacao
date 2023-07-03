@@ -3,32 +3,43 @@ var perguntasFeitas = [];
 
 // Perguntas do jogo
 const perguntas = [
-    //Pergunta 0
+   
     {
     pergunta: "Qual dessas linguagens não é considera uma linguagem de programação?",
     respostas: ["C#", "Java", "Ruby", "HTML"],
     correta: "resp3"
     },
-    //Pergunta 1
+    
     {
     pergunta: "Qual dessas linguagens é uma linguagem interpretada?",
     respostas: ["C#", "Javascript", "C", "Java"],
     correta: "resp1"
     },
-    //Pergunta 2
+    
     {
         pergunta: "O que significa HTML?",
         respostas: ["Hyper Title Middle Loading", "Hyper Text Markup Language", "How To Make This", "Hyper Text Matchup Lineup"],
         correta: "resp1"
     },
 
-    //Pergunta 3
+    
     {
         pergunta: "Qual dessas linguagens surgiu primeiro?",
         respostas: ["Java", "C#", "Python", "Javascript"],
         correta: "resp2"
     },
+
+    {
+        pergunta: "Em que ano surgiu o sistema operacional linux?",
+        respostas: ["1992", "1993", "1991", "1990"],
+        correta: "resp2"
+    },
 ];
+
+
+
+
+
 var qtdPerguntas = perguntas.length -1;
 gerarPergunta(qtdPerguntas)
 

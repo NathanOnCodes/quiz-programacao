@@ -1,3 +1,3 @@
 # quiz-programacao
-quiz criado para testar os conhecimentos de programação
-leia o leiame.md e faça commits comentados para me ajudar se quiser. Obrigado pela atenção.
+
+Meu primeiro projeto feito apenas com html, css e javascript vanilla. com um bonito layout o usuario pode testar seus conhecimetos com perguntas sobre tecnologia.
